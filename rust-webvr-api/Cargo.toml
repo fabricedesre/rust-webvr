@@ -13,7 +13,7 @@ and integration with vendor specific SDKs like OpenVR and Oculus. The API is ins
 easy to use WebVR API but adapted to Rust design patterns'''
 
 [features]
-default = ["utils", "jni_utils"]
+default = ["utils"]
 utils = ["time"]
 jni_utils = ["android_injected_glue"]
 serde-serialization = ["serde", "serde_derive"]
